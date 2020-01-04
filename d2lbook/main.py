@@ -6,7 +6,7 @@ from d2lbook.clear import clear
 import logging
 
 import sys
-reload(sys)
+# reload(sys)
 sys.setdefaultencoding('utf-8')
 
 logging.basicConfig(format='[d2lbook:%(filename)s:L%(lineno)d] %(levelname)-6s %(message)s')
