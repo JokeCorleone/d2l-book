@@ -237,7 +237,7 @@ class Builder(object):
 
         script = self.config.pdf['post_latex']
         process_latex(self.config.tex_fname, script)
-        run_cmd(['cd', self.config.pdf_dir, '&& make'])
+        # run_cmd(['cd', self.config.pdf_dir, '&& make'])
 
     @_once
     def pkg(self):
